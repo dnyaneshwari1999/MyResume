@@ -233,7 +233,7 @@ function setupMenu() {
 
 function prepareData() {
   $.getJSON(
-    "https://gist.githubusercontent.com/karan0805/ef92455e063029094356d2bb676f2cdc/raw/eb766f3039c4e816414db7e3f3d42d3b9691f9d4/resumedata.json"
+    "https://gist.githubusercontent.com/dnyaneshwari1999/60f12fd3b688c58754cf936115e1f65d/raw/c003f8a2de3cfc9a73ee03693a0f4effe127313c/resumedata.json"
   )
     .done(function (json) {
       preparePage(json);
