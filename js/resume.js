@@ -232,9 +232,7 @@ function setupMenu() {
 }
 
 function prepareData() {
-  $.getJSON(
-    "https://gist.githubusercontent.com/dnyaneshwari1999/60f12fd3b688c58754cf936115e1f65d/raw/c003f8a2de3cfc9a73ee03693a0f4effe127313c/resumedata.json"
-  )
+  $.getJSON("https://gist.githubusercontent.com/dnyaneshwari1999/60f12fd3b688c58754cf936115e1f65d/raw/3c8c7206ba2682b4bd5629dd3cba84e9b0e645a8/resumedata.json")
     .done(function (json) {
       preparePage(json);
     })
